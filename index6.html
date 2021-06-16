@@ -1,0 +1,110 @@
+  <!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" user-scaleable="yes">
+	<meta charset = "UTF-8">
+<title>red value</title>
+</head>
+	
+<style type="text/css">
+	
+html,body{width:100%; height: 100%; padding: 0;margin:0;display: inline-block;}
+
+	
+
+.container{display: flex; width: 37%; height: 35%; z-index: 15; margin-top: -12%;  justify-content: space-between;   flex-wrap: wrap; margin-left: -16%;}
+.item1 img {display: flex;object-fit: cover; filter: drop-shadow( 5px 5px 5px  #dddddd); margin-left: 3%;}
+.item1 :hover {
+  filter: drop-shadow( 5px 3px 5px  #696868);
+}
+	
+.item2 img {display: flex; object-fit: cover; filter: drop-shadow( 5px 5px 5px  #dddddd);margin-left:-10%;}
+	.item2 :hover {
+  filter: drop-shadow( 5px 3px 5px  #696868);
+}
+	
+
+	.again img {z-index: 16; position: absolute; margin-top: 14%; margin-left: -18%;}	
+
+div.warp
+	{background-color: black;
+	text-align:center;	
+	width:100%;
+	height: 100%;
+	margin:0; padding:0;
+		position:fixed;
+}
+
+	
+.vid 
+	{width:100%; height:100%;
+	object-fit: contain;
+align-items: center;
+	margin:0; padding:0;
+	justify-content: center;
+    position: absolute; 
+	background-color: black;
+		display :flex;
+flex-warp :wrap;
+		
+}
+	
+.vid img{ max-width: 100%;
+  max-height:100%;
+	position: absolute;  }
+	
+	
+
+
+
+	caption{font-size: 2vw; font-family:'noto sans', sans-serif;  }	
+	td{font-size: 1vw; font-family:'Dhyana', sans-serif; }
+	
+	
+@media screen and (max-width: 600px) {
+  div.txtbox {
+margin-left: -12%;
+  }
+}
+
+
+/*@media screen and (min-width: 601px) {
+  div.txtbox {
+    width: 100%;
+  }
+}*/
+	
+		
+</style>
+	
+<body>
+	
+<div class="warp">
+
+
+
+<div class="vid" >
+	<script>
+
+		
+	</script>
+
+
+	<div class=container>
+<div  class =  item1 > <img src="image/card1.png" width="300px" height="400px" alt=""/></div>
+<div  class =  item2 > <img src="image/card1-1.png" width="500px" height="400px" alt=""/></div>
+	</div>
+	
+  <img src="image/image7.png" alt=""/>
+
+		
+<div class=again> <img src="image/playagain.png" alt=""/ width="300px"; height="180px" onmouseover="this.src='image/playagain2.png'"
+					   onmouseout="this.src='image/playagain.png'"  onclick="document.location.href='index.html'"></div>
+
+	</div>
+
+
+	
+</div>
+</body>
+</html>
